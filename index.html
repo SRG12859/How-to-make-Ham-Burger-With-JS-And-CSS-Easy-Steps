@@ -5,58 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>How to make Ham-burger Menu With HTML, CSS, JS</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="nav-wrapper">
+    <div class="navbar-wrapper">
       <nav class="navbar">
         <div class="navbar-inside-wrapper">
-          <div class="hamBurger_with_branding">
-            <div class="branding-wrapper">
-              <h2 class="branding">Company</h2>
-            </div>
-            <div class="hamBurger-btn-wrapper">
-              <button class="hamBurger-btn" id="hamBurger-btn">
-                <svg
-                  width="32"
-                  height="21"
-                  viewBox="0 0 32 21"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g id="top-line">
-                    <rect width="32" height="3.70588" fill="white" />
-                  </g>
-                  <g id="middle-line">
-                    <rect
-                      y="8.64706"
-                      width="32"
-                      height="3.70588"
-                      fill="white"
-                    />
-                  </g>
-                  <g id="last-line">
-                    <rect
-                      y="17.2941"
-                      width="32"
-                      height="3.70588"
-                      fill="white"
-                    />
-                  </g>
-                </svg>
-              </button>
-            </div>
+          <div class="hamburger_with_branding">
+            <h2>Company</h2>
+            <button class="hamBurger-btn">
+              <svg
+                width="32"
+                height="21"
+                viewBox="0 0 32 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="top-line">
+                  <rect width="32" height="3.70588" fill="white" />
+                </g>
+                <g id="middle-line">
+                  <rect y="8.64706" width="32" height="3.70588" fill="white" />
+                </g>
+                <g id="last-line">
+                  <rect y="17.2941" width="32" height="3.70588" fill="white" />
+                </g>
+              </svg>
+            </button>
           </div>
           <div class="navbar-links-wrapper">
-            <ul class="navbar-links-ul" id="navbar-links-ul">
-              <li class="navbar-links"><a href="#">Home</a></li>
-              <li class="navbar-links"><a href="#">About</a></li>
-              <li class="navbar-links"><a href="#">Contact</a></li>
+            <ul class="navbar-links-ul">
+              <li class="navbar-links">
+                <a href="#" class="navbar-links-a">Home</a>
+              </li>
+              <li class="navbar-links">
+                <a href="#" class="navbar-links-a">About</a>
+              </li>
+              <li class="navbar-links">
+                <a href="#" class="navbar-links-a">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
-    <script src="./script.js"></script>
   </body>
 </html>
